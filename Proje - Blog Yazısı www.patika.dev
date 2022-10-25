@@ -1,0 +1,5 @@
+0! Neden Bire Eşittir?
+Eğitim hayatımızda 0! ifadesinin bire eşit olduğunu öğrendik, ezberledik. Peki neden bu şekilde olduğunu hiç düşündünüz mü? Gelin basit bir örnek ile bu ezberlediğimiz bilgiyi gerçekten öğrenelim.
+0! = 1 tanımı biraz da permütasyonlar ve kombinasyonlar için kullandığımız formüllerle ilgilidir. Elbette bu, sıfır faktöriyelin neden bir olduğunu açıklamaz. Ancak neden bu biçimde kabul edilmesi gerektiği konusunda bize bir fikir verir. Örneğin, {1, 2, 3} kümesini düşünelim. Bu elemanları nasıl düzenlersek düzenleyelim, sonunda aynı üçlüye ulaşırız.
+Bu nedenle kombinasyon hesabı için kullandığımız formül C (n,r ) = n!/[r!(n – r)!] biçimindedir. 3 elemanlı bir kümenin 3’lü kombinasyonlarını hesaplamaya kalktığımızda da payda da (3-3)! biçiminde bir ifade oluşacaktır. Bu da 0! = 1 ifadesini kullanmaya bizi zorlayacaktır.
+Sonuç olarak 0! = 1 ifadesi aslında sezgiseldir. Kullandığımız formülerin gerekliliklerini sağlamak için bu şekilde kabul ederiz. 
