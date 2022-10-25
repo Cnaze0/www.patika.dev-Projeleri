@@ -1,0 +1,42 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1)Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+2)Big-O gösterimini yazınız.
+
+
+1)
+ 
+[16,21,11,8,12,22]
+
+Dizi iki gruba ayrılır. 
+
+[16,21,11]      [8,12,22]
+
+İki gruba ayrılan diziler tekrardan ayırma işlemi uygulanır. 
+
+[16]  [21,11]    [8,12]  [22]
+
+İki elemanları diziler tekrardan ikiye ayrılır.
+
+[16] [21] [11]    [8] [12] [22]
+
+Bölünen iki elemanları diziler sıralanır ve tekrardan oluşturulur.
+
+[16]  [11,21]    [8,12]  [22]
+
+Başlangıçtaki bölünen üç elemanlı diziler sıralanır ve tekrardan oluşturulur.
+
+[11,16,21]      [8,12,22]
+
+Kalan üç elemanları iki dizi sıralanır ve birleştirilir.
+
+[8,11,12,16,21,22]
+
+Merge Sort tamamlanmış olur.
+
+
+2)
+
+Big-O Gösterimi:  O(nlogn) n=6
+
+
