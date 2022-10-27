@@ -1,0 +1,8 @@
+public void quickSort(int arr[], int baslangic, int bitis) {
+    if (baslangic < bitis) {
+        int partitionIndex = partition(arr, baslangic, bitis);
+
+        quickSort(arr, baslangic, partitionIndex-1);
+        quickSort(arr, partitionIndex+1, bitis);
+    }
+}
